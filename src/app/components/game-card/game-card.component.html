@@ -8,7 +8,7 @@
         <button
             *ngIf="shoppingCart.getQuantity(game) === 0; else updateQuantity"
             (click)="addToCart()"
-            class="btn btn-secondary btn-block">Add to Cart</button>
+            class="btn btn-primary btn-block">Add to Cart</button>
         <ng-template #updateQuantity>
             <game-quantity [game]="game" [shopping-cart]="shoppingCart"></game-quantity>
         </ng-template>
