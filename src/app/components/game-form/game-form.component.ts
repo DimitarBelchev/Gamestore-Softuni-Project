@@ -11,7 +11,7 @@ import { GameService } from 'app/services/game.service';
 })
 export class GameFormComponent {
   categories$;
-  game = {};
+  game:any= {};
   id;
 
   constructor(categoryService: CategoryService,
