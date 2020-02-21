@@ -8,7 +8,7 @@
 "npm i" & "ng s"
 
 Бонуси:
-firebase hosting : https://gamerstore-3ba7f.firebaseapp.com/
+firebase hosting : https://gamerstore-3ba7f.firebaseapp.com/ (може да е по-стара версия)
 
 dropbox storage : https://www.dropbox.com/home/SoftUniProject
 
