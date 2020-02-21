@@ -21,7 +21,6 @@ import { ShoppingCartComponent } from './components/shopping-cart/shopping-cart.
 import { ShoppingCartSummaryComponent } from './components/shopping-cart-summary/shopping-cart-summary.component';
 import { SignupComponent } from './components/signup/signup.component';
 import { GameFilterComponent } from './components/games/game-filter/game-filter.component';
-
 import { CommonModule } from '@angular/common';
 import { DataTableModule } from 'angular7-data-table';
 import { AngularFireDatabaseModule } from '@angular/fire/database';
@@ -39,21 +38,6 @@ import { OrderService } from './services/order.service';
 import { GameService } from './services/game.service';
 import { environment } from 'environments/environment';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
-
-// import { ProductsComponent } from './components/products/products.component';
-
-// import { ProductFilterComponent } from './components/products/product-filter/product-filter.component';
-
-// import { ProductCardComponent } from './components/product-card/product-card.component';
-// import { ProductQuantityComponent } from './components/product-quantity/product-quantity.component';
-
-// import { ProductService } from './services/product.service';
-
-// import { BsNavbarComponent } from './components/bs-navbar/bs-navbar.component';
-
-// import { AdminProductsComponent } from './components/admin-products/admin-products.component';
-// import { ProductFormComponent } from './components/product-form/product-form.component';
-
 
 @NgModule({
   declarations: [
